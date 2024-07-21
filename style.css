@@ -1,0 +1,20 @@
+body {
+    background-color: #AAE6E3;
+    font-family: 'Arial', sans-serif;
+}
+
+.btn-task {
+    margin-top:10px;
+    background-color: #E8B931;
+    color: black;
+}
+
+.btn-task:hover {
+    background-color: #AAE6E3;
+   
+}
+
+.form-control:focus {
+    border-color: #ff69b4;
+    box-shadow: none;
+}
