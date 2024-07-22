@@ -1,3 +1,12 @@
+
+
+ html, body {
+    height: 100%;
+    margin: 0;
+}
+
+
+
 body {
     background-color: #AAE6E3;
     font-family: 'Arial', sans-serif;
@@ -13,8 +22,40 @@ body {
     background-color: #AAE6E3;
    
 }
+.btn-primary:hover{
+    background-color:#BBBBBB !important; 
+   
+} 
+
+
+
 
 .form-control:focus {
     border-color: #ff69b4;
     box-shadow: none;
+
 }
+
+
+.nav-link:hover{
+   
+    background-color:#4AD4CC70 !important;
+    text-decoration:underline;
+    padding:10px;
+    
+    
+   
+}
+
+.navbar-brand {
+  position:relative;
+}
+.navbar-brand img {
+    height:150px;
+    position:absolute;
+    max-height:300px;
+    top:-70px;  
+} 
+ 
+
+
