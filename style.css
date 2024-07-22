@@ -54,12 +54,9 @@ main {
    
 }
 
-.navbar-brand {
-  position:relative;
-}
+
 .navbar-brand img {
     height:150px;
-    position:absolute;
     max-height:300px;
     top:-70px;  
 } 
