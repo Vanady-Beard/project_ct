@@ -9,9 +9,16 @@
     left: 50%;
     transform: translateX(-50%);
 }
+.navbar-brand-center.move up{
+    transform: translate(-20px,-20px);
+}
 
+.logo{
+    height:300px;
+    width: auto;
+}
 .navbar-toggler{
-    align-items: center;
+    align-items:end;
 }
 
 .nav{
@@ -74,13 +81,6 @@ body{
     align-items: center;
 }
 }
-
-
-
-
-
-
-
 @media (max-width: 768px){
     .container {
         grid-template-areas:
@@ -91,5 +91,5 @@ body{
         grid-template-columns: 1fr;
         grid-template-rows: auto;
     }
-    }
+
     
