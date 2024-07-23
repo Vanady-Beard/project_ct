@@ -17,10 +17,10 @@
         <!-- Responsive Navigation Bar -->
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid position-relative">
-                <div class="navbar-brand-center">
-                    <img class="logo" src="taskgleamlogo.png" alt="TaskGleam Logo"></a>
-                </div>
-                <div class="class"></div>
+                <a class="navbar-brand" href="#">
+                    <img src="newtaskgleam-high-resolution-logo-removebg-preview.png" alt="our logo" class="navbar-brand" style="height:75px;"/>
+                </a>
+                
                 <button 
                     class="navbar-toggler" 
                     type="button " 
@@ -29,18 +29,16 @@
                     aria-controls="navbarNav" 
                     aria-expanded="false" 
                     aria-label="Toggle navigation">
-                        
-                        <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse " id="navbarNav">
                     <ul class="navbar-nav ms-auto">
-                        <li class="nav-item">
-                            <a class="nav-link text-primary active" aria-current="page"  href="backuplogin.html">Log In</a>
-                        </li>
-                        <li class="nav-item">
-                              <a class="nav-link text-primary " href="register.html">Sign Up</a>
-                        </li>
-                    </ul>
+                   </ul>
+                    
+                    <div class="ms-auto d-flex">
+                        <a href="register.html" class="btn btn-task btn btn-primary me-2">Create Account</a>
+                        <a href="login.html" class="btn btn-task btn btn-primary">Sign Up</a>
+                    </div>
                 </div>
             </div>
         </nav>
@@ -70,7 +68,7 @@
                 <label for="password" class="form-label">Password</label>
                 <input type="password" class="form-control" id="password" placeholder="Password">
             </div>
-            <button type="submit" class="btn btn-primary btn-block">Create Account</button>
+            <a href="login.html" class="btn btn-task"class="btn btn-primary">Create Account</a>   
         </form>
     </div>
     <div class="mt-2 text-center welcome-text"
@@ -82,7 +80,7 @@
     <footer class="footer  text-center mt-4"
         <p>&copy; 2024 TaskGleam. All Rights Reserved.</p>
         
-</footer>
+    </footer>
     
     <!-- Bootstrap JavaScript Libraries -->
     <script
